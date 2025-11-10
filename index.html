@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Houdaifa Mouden</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="icofont/icofont.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Houdaifa Mouden</div>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+        <ul class="menu" id="menu">
+            <li class="x" id="x">&times;</li>
+            <li><a href="#about">Accueil</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#expertise">Compétences</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Homme Me Section  -->
+    <section class="about" id="about">
+        <div class="about-image">
+        <!-- your photo -->
+            <img src="images/profile/PROFILE.jpg" alt="Your Name">
+        </div>
+        <div class="about-content">
+            <h2>ABOUT ME</h2>
+            <h3>Why hire me for your next project?</h3>
+            <p>
+                I’m a Creative Director and UI/UX Designer based in Tetouan, passionate about crafting seamless digital experiences that combine aesthetics and usability. With expertise in web development and print media, I transform complex challenges into clear, functional, and visually engaging solutions that connect with users on every level.            </p>
+            <p>
+                My role is to design and develop websites that are functional, intuitive, and visually compelling. I focus on creating digital products that not only look great but also provide effortless navigation and meaningful interactions — ensuring that every design I create is appealing, user-friendly, and professionally crafted.            </p>
+        </div>
+
+    </section>
+
+    <!-- services section -->
+    <section class="services" id="services">
+        <div class="section-header">
+            <h2>MY SERVICES</h2>
+            <h3>My provided features</h3>
+        </div>
+
+        <!-- Swiper container -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <!-- Service 1 -->
+                <div class="swiper-slide service-card">
+                    <div class="service-icon"><i class="fas fa-code"></i></div>
+                    <h4>Front-End Development</h4>
+                    <div class="service-divider"></div>
+                    <p>Responsive and interactive user interfaces built with modern web technologies.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="swiper-slide service-card">
+                    <div class="service-icon"><i class="fa-solid fa-desktop"></i></div>
+                    <h4>Desktop App</h4>
+                    <div class="service-divider"></div>
+                    <p>High-performance and intuitive desktop applications.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="swiper-slide service-card">
+                    <div class="service-icon"><i class="fas fa-layer-group"></i></div>
+                    <h4>Full-Stack Development</h4>
+                    <div class="service-divider"></div>
+                    <p>Complete web solutions combining modern frontend design and powerful backend systems.</p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="swiper-slide service-card">
+                    <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+                    <h4>Design Canva</h4>
+                    <div class="service-divider"></div>
+                    <p>Create modern and professional designs on Canva.</p>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="swiper-slide service-card">
+                    <div class="service-icon"><i class="fas fa-database"></i></div>
+                    <h4>Database Management</h4>
+                    <div class="service-divider"></div>
+                    <p>Efficient design, optimization, and maintenance of relational and NoSQL databases.</p>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="swiper-slide service-card">
+                    <div class="service-icon"><i class="fas fa-brain"></i></div>
+                    <h4>AI Development</h4>
+                    <div class="service-divider"></div>
+                    <p>Building intelligent systems using machine learning and data-driven solutions for smarter applications.</p>
+                </div>
+
+                <!-- Service 7 -->
+                <div class="swiper-slide service-card">
+                    <div class="service-icon"><i class="fas fa-network-wired"></i></div>
+                    <h4>n8n Automation</h4>
+                    <div class="service-divider"></div>
+                    <p>Automating workflows and integrating apps seamlessly using n8n for smarter, no-code process management.</p>
+                </div>
+
+            </div>
+
+            <!-- Pagination and Navigation -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+
+    <!-- projets -->
+    <section class="portfolio" id="portfolio">
+        <div class="section-header">
+            <h2>PORTFOLIO</h2>
+            <h3>My work</h3>
+        </div>
+        <!-- filter -->
+        <div class="portfolio-filters">
+            <button class="filter-btn active" data-filter="all">ALL</button>
+            <button class="filter-btn" data-filter="frontend">Front-end</button>
+            <button class="filter-btn" data-filter="backend">Full-Stack</button>
+            <button class="filter-btn" data-filter="desktop">Desktop</button>
+        </div>
+
+        <div class="portfolio-grid">
+
+            <!-- Project 1 - Front-end -->
+            <div class="portfolio-item" data-category="frontend">
+                <img  src="images/billapp/A.webp" alt="Boutique Adidas">
+                <div class="portfolio-overlay">
+                    <h4>App Bill Counter</h4>
+                    <p>Front-end development</p>
+                    <a href="#" class="view-btn" id="buuton-page">Voir le projet</a>
+                </div>
+            </div>
+            
+
+            <!-- Project 2 - Backend -->
+            <div class="portfolio-item" data-category="desktop">
+                <img src="images/password/Untitled design.png" alt="Gestion de Restaurent">
+                <div class="portfolio-overlay">
+                    <h4>Password Generatore</h4>
+                    <p>Desktop App</p>
+                    <a href="#" id="c-projet" class="view-btn">Voir le projet</a>
+                </div>
+            </div>
+
+            <!-- Project 3 - desktop -->
+            <div class="portfolio-item" data-category="frontend">
+                <img style="width: 90%;" src="images/sweet/logo.png" alt="">
+                <div class="portfolio-overlay">
+                    <h4>Product List</h4>
+                    <p>Front-end development</p>
+                    <a href="#" class="view-btn" id="sweet">Voir le projet</a>
+                </div>
+            </div>
+
+            <!-- Project 4 - Front-end -->
+            <div class="portfolio-item" data-category="frontend">
+                <img src="images/to_do_list/icon.jpg" style="width: 80%;" alt="">
+                <div class="portfolio-overlay">
+                    <h4>To Do List</h4>
+                    <p>Front-end development</p>
+                    <a href="#" id="list-projet" class="view-btn">Voir le projet</a>
+                </div>
+            </div>
+
+            <!-- Project 5 - frontend -->
+            <div class="portfolio-item" data-category="frontend">
+                <img src="images/weather/Untitled design.png"  alt="">
+                <div class="portfolio-overlay">
+                    <h4>Weather Application</h4>
+                    <p>Front-end development</p>
+                    <a href="#" class="view-btn" id="weather">Voir le projet</a>
+                </div>
+            </div>
+
+            <!-- Project 5 - frontend -->
+            <div class="portfolio-item" data-category="frontend">
+                <img src="images/note/notes.png" style="width: 60%;"  alt="">
+                <div class="portfolio-overlay">
+                    <h4>Note Application</h4>
+                    <p>Front-end development</p>
+                    <a href="#" class="view-btn" id="note-btn">Voir le projet</a>
+                </div>
+            </div>
+
+            <!-- Project 6 - frontend -->
+            <div class="portfolio-item" data-category="backend">
+                <img src="images/terrain/Untitled design.png"   alt="">
+                <div class="portfolio-overlay">
+                    <h4>RESRVATION TERRAIN</h4>
+                    <p>Front-end development</p>
+                    <a href="#" class="view-btn" id="terrain-btn">Voir le projet</a>
+                </div>
+            </div>
+
+            <!-- Project 6 - Photoshop -->
+            <!-- <div class="portfolio-item" data-category="design">
+            <img src="" alt="Branding">
+            <div class="portfolio-overlay">
+                <h4></h4>
+                <p>Photoshop</p>
+                <a href="#" class="view-btn">Voir le projet</a>
+            </div>
+            </div>
+        </div> -->
+    </section>
+
+
+
+    <!-- Compétences section -->
+    <section class="expertise" id="expertise">
+        <div class="section-header">
+            <h2>MY EXPERTISE</h2>
+            <h3>Technical skills</h3>
+        </div>
+
+        <div class="skills-container">
+            <!-- Row 1 -->
+            <div class="skill-item">
+            <div class="skill-info">
+                <span>Website design</span>
+                <span>95%</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" style="width: 95%; background: #6e8efb;"></div>
+            </div>
+            <div class="skill-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>React.js</span>
+                <span>Bootstrap</span>
+                <span>JavaScript</span>
+            </div>
+            </div>
+
+
+
+            <!-- Row 2 -->
+            <div class="skill-item">
+            <div class="skill-info">
+                <span>Backend Development</span>
+                <span>90%</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" style="width: 90%; background: #4facfe;"></div>
+            </div>
+            <div class="skill-tags">
+                <span>Python</span>
+                <span>PHP</span>
+                <span>Nodes.js</span>
+                <span>Laravel</span>
+            </div>
+            </div>
+
+             <!-- Row 3 -->
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>Database </span>
+                    <span>87%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 87%; background: #d0e943;"></div>
+                </div>
+                <div class="skill-tags">
+                    <span>MYSQL</span>
+                    <span>MONGODEB</span>
+                </div>
+            </div>
+
+            <!-- Row 4 -->
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>Design tools</span>
+                    <span>80%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 80%; background: #43e97b;"></div>
+                </div>
+                <div class="skill-tags">
+                    <span>Canva</span>
+                </div>
+            </div>
+
+            <!-- Row 5 -->
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>Outils de bureau</span>
+                    <span>85%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 85%; background: #ff7e5f;"></div>
+                </div>
+                <div class="skill-tags">
+                    <span>Word</span>
+                    <span>Excel</span>
+                    <span>Power Piont</span>
+                    <span>Access</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- contacct foorm -->
+    <section class="contact" id="contact">
+        <div class="section-header">
+            <h2>CONTACT ME</h2>
+            <h3>Send me a message</h3>
+        </div>
+
+        <div class="contact-container">
+            <form class="contact-form" id="contactForm">
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" >
+                    <label for="name">Name</label>
+                    <p class="eroro"></p>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" >
+                    <label for="email">Email</label>
+                    <p class="eroro"></p>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="tel" id="phone" name="phone">
+                    <label for="phone">Phone</label>
+                    <p class="eroro"></p>
+                </div>
+  
+            </div>
+
+            <div class="form-group full-width">
+                <textarea name="message" id="message" name="message" rows="5" ></textarea>
+                <label for="message">Message</label>
+                <p class="eroro"></p>
+            </div>
+
+            <button id="btn" type="submit" class="submit-btn">SEND A MESSAGE</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Brand Column -->
+            <div class="footer-brand">
+                <h2 class="footer-logo">M.Houdaifa</h2>
+                <p class="footer-description">
+                Développeur Web passionné, créant des expériences numériques modernes et intuitives.<br>
+                    Toujours prêt à relever de nouveaux défis et à innover.<br>
+                </p>
+            </div>
+
+            <!-- Contact Info Columns -->
+            <div class="footer-columns">
+                <!-- Column 1 -->
+                <div class="footer-col">
+                    <h3 class="footer-title">ENVOYER UN COURRIER</h3>
+                    <ul class="footer-links">
+                    <li><a href="hodayfamoden06@gmail.com">hodayfamoden06@gmail.com</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 2 -->
+                <div class="footer-col">
+                    <h3 class="footer-title">INVITATION</h3>
+                    <ul class="footer-links">
+                    <li><a href="tel:+212711931514">+212 7 11 93 15 14</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 -->
+                <div class="footer-col">
+                    <h3 class="footer-title">Médias sociaux</h3>
+                    <div class="footer-address">
+                        <a target="_blank" href="https://github.com/houdaifa-1244"><i class="fab fa-github"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/houdaifa-mouden-126185236/?skipRedirect=true"><i class="fa fa-linkedin-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-copyright">
+            <p>Created By <span style="color: #6e8efb;">Houdaifa Mouden.</span></p>
+        </div>
+    </footer>
+
+
+
+    <!-- Sidebar Page (app bill counter) -->
+    <div id="sidebar-page" class="sidebar-page">
+        <span class="close-btn" id="close-sidebar">&times;</span>
+        <div class="sidebar-content">
+            <header>
+                <h1>Bill Counter App</h1>
+            </header>
+
+            <div class="lien-sit">
+                <a target="_blank" href="https://houdaifa-1244.github.io/app-counter/">Accéder à l’application</a>
+            </div>
+
+            <!-- Section intro -->
+            <section class="intro-video">
+                <div class="intro-text">
+                    <h2>Bienvenue sur Bill Counter App</h2>
+                    <p>
+                    Cette application simple et intuitive vous aide à calculer le montant exact à payer après un repas ou une sortie entre amis.
+                    Entrez le total de la facture, choisissez le pourcentage de pourboire, indiquez le nombre de personnes et obtenez le montant exact par personne.
+                    L’application est fluide, rapide et facile à utiliser, avec un design clair et professionnel.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Section roles / étapes -->
+            <section class="gallery">
+                <div class="card">
+                    <img src="images/billapp/add.png" alt="Add Bill"/>
+                    <h3>Add Bill</h3>
+                    <p>Entrez le montant total de la facture pour commencer le calcul.</p>
+                </div>
+                <div class="card">
+                    <img src="images/billapp/tip.png" alt="Select Tip"/>
+                    <h3>Select Tip</h3>
+                    <p>Choisissez le pourcentage du pourboire selon votre préférence.</p>
+                </div>
+                <div class="card">
+                    <img src="images/billapp/people.png" alt="Select People"/>
+                    <h3>Select People</h3>
+                    <p>Indiquez le nombre de personnes partageant la facture.</p>
+                </div>
+                <div class="card">
+                    <img src="images/billapp/reset.png" alt="Reset App"/>
+                    <h3>Reset App</h3>
+                    <p>Remettez l’application à zéro pour un nouveau calcul instantané.</p>
+                </div>
+            </section>
+            
+        </div>
+    </div>
+
+
+    <!-- Sidebar Page (python projet) -->
+    <div id="s-p" class="s-p">
+        <span class="close-btn" id="clos">&times;</span>
+        <div class="sid">
+
+            <!-- Introduction -->
+            <header>
+                <h1>Desktop Password Generator</h1>
+            </header>
+
+            <section class="intro">
+                <p>
+                    This desktop application helps you generate strong passwords and store credentials securely.
+                    Add entries with a name (label), website, email and password — or auto-generate a secure password.
+                    Quickly find any saved password by searching with its name.
+                </p>
+                <ul>
+                    <li><strong>Add Entry:</strong> create a new credential with name, website, email and password (or generate one).</li>
+                    <li><strong>Search:</strong> find an entry by name and reveal the stored password safely.</li>
+                    <li><strong>Security tip:</strong> store data encrypted and protect the app with a master password for desktop use.</li>
+                </ul>
+            </section>
+
+            <main>
+                <!-- Step 1 -->
+                <section class="step">
+                    <img src="images/password/1.png" alt="Add Entry" />
+                    <div>
+                    <h2>1. Add Entry</h2>
+                    <p>
+                        Fill the form: <strong>Name (label)</strong>, <strong>Website</strong>, <strong>Email</strong> and <strong>Password</strong>.
+                        Use the generator button to create a strong password automatically (length, symbols, numbers options).
+                    </p>
+                    </div>
+                </section>
+
+                <!-- Step 2 -->
+                <section class="step">
+                    <img src="images/password/2.png" alt="Find Entry" />
+                    <div>
+                    <h2>2. Find Password by Name</h2>
+                    <p>
+                        Search by the entry name (label) to quickly locate the credential. Select the result to reveal or copy the password.
+                        For safety, require the master password or biometric unlock before revealing.
+                    </p>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+     <!-- Sidebar Page (to do list) -->
+    <div id="td" class="td">
+        <span class="close-btn" id="t-clos">&times;</span>
+        <div class="to_do">
+            <header>
+            <h1>Application Web : To-Do List</h1>
+            </header>
+             <div class="lien-sit"><a target="_blank" href="https://houdaifa-1244.github.io/to-do-list/">Accéder au site</a></div>
+            <section class="intro">
+            <p>
+                Cette application <strong>To-Do List</strong> est une solution simple et moderne pour
+                organiser vos tâches quotidiennes. Elle permet d’ajouter, compléter, supprimer et filtrer les tâches,
+                avec un design clair/sombre et une interface fluide.
+            </p>
+            <br>
+            <ul>
+                <li><strong>Ajout de tâche :</strong> permet d’ajouter rapidement une nouvelle tâche.</li>
+                <li><strong>Compléter/Sélectionner :</strong> marque une tâche comme terminée.</li>
+                <li><strong>Supprimer :</strong> retire la tâche de la liste.</li>
+                <li><strong>Filtrage :</strong> affiche toutes les tâches, actives ou terminées.</li>
+                <li><strong>Mode sombre :</strong> change automatiquement le thème de l’application.</li>
+            </ul>
+            </section>
+
+            <main>
+            <!-- Étape 1 -->
+            <section class="step">
+                <img src="images/to_do_list/1.png" alt="Interface principale" />
+                <div>
+                <h2>1. Interface principale</h2>
+                <p>
+                    L’interface principale affiche la liste des tâches avec un design moderne et intuitif.
+                </p>
+                </div>
+            </section>
+
+            <!-- Étape 2 -->
+            <section class="step">
+                <img src="images/to_do_list/2.png" alt="Ajout d’une tâche" />
+                <div>
+                <h2>2. Ajouter une tâche</h2>
+                <p>
+                    L’utilisateur peut ajouter une nouvelle tâche à l’aide du champ de saisie et du bouton “Add”.
+                </p>
+                </div>
+            </section>
+
+            <!-- Étape 3 -->
+            <section class="step">
+                <img src="images/to_do_list/3.png" alt="Sélection d’une tâche terminée" />
+                <div>
+                <h2>3. Sélectionner une tâche terminée</h2>
+                <p>
+                    En cliquant sur une tâche, elle est marquée comme terminée (grisée ou barrée).
+                </p>
+                </div>
+            </section>
+
+            <!-- Étape 4 -->
+            <section class="step">
+                <img src="images/to_do_list/4.png" alt="Filtres des tâches" />
+                <div>
+                <h2>4. Filtres des tâches</h2>
+                <p>
+                    Trois filtres sont disponibles : <strong>All</strong>, <strong>Active</strong>, et <strong>Completed</strong>.
+                    Un bouton <strong>Clear Completed</strong> permet de supprimer toutes les tâches terminées.
+                </p>
+                </div>
+            </section>
+
+            <!-- Étape 5 -->
+            <section class="step">
+                <img src="images/to_do_list/5.png" alt="Mode sombre" />
+                <div>
+                <h2>5. Mode sombre</h2>
+                <p>
+                    L’application inclut un <strong>Dark Mode</strong> élégant qui s’active automatiquement selon le thème choisi.
+                </p>
+                </div>
+            </section>
+            </main>
+        </div>
+    </div>
+
+    <!-- sidebar page (sweet store online) -->
+    <div id="sw" class="sw">
+        <span class="close-btn" id="w-clos">&times;</span>
+        <div class="sidebar-content">
+
+            <!-- Header -->
+            <header>
+                <h1>Product List with Cart</h1>
+            </header>
+
+            <div class="lien-sit">
+                <a target="_blank" href="https://houdaifa-1244.github.io/sweet_store/">Visit the App</a>
+            </div>
+
+            <!-- Intro Section -->
+            <section class="intro-video">
+            <div class="intro-text">
+                <h2>Welcome to Product List with Cart</h2>
+                <p>
+                This web application allows you to browse a variety of products, add your favorites to the cart,
+                manage your orders, and confirm your purchase in just a few clicks.
+                The interface is clean, modern, and user-friendly, offering a smooth shopping experience.
+                </p>
+            </div>
+            </section>
+
+            <!-- Steps Section -->
+            <section class="gallery">
+                <div class="card">
+                    <img src="images/sweet/1.jpg" alt="Empty Cart"/>
+                    <h3>Step 1: Empty State</h3>
+                    <p>When you start, your cart is empty. Browse and explore the available products.</p>
+                </div>
+                <div class="card">
+                    <img src="images/sweet/2.jpg" alt="Select Products"/>
+                    <h3>Step 2: Select Products</h3>
+                    <p>Select your favorite items and add them to your cart easily.</p>
+                </div>
+                <div class="card">
+                    <img src="images/sweet/3.jpg" alt="Orders List"/>
+                    <h3>Step 3: Orders List</h3>
+                    <p>View the full list of items added to your cart before checkout.</p>
+                </div>
+                <div class="card">
+                    <img src="images/sweet/4.jpg" alt="Confirm Order"/>
+                    <h3>Step 4: Confirm Order</h3>
+                    <p>Once ready, confirm your order to finalize your purchase securely.</p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- sidebar page (weather app) -->
+    <div id="wet" class="wet">
+        <span class="close-btn" id="clos-wet">&times;</span>
+        <div class="sidebar-content">
+
+            <!-- Header -->
+            <header>
+            <h1>Weather App</h1>
+            </header>
+
+            <div class="lien-sit">
+            <a target="_blank" href="https://houdaifa-1244.github.io/weather/">Visit the App</a>
+            </div>
+
+            <!-- Intro Section -->
+            <section class="intro-video">
+                <div class="intro-text">
+                    <h2>Welcome to Weather App</h2>
+                    <p>
+                    This web application allows you to search for any city worldwide and instantly get accurate weather details.
+                    Simply type your city name, select the right option, and view the live weather results with temperature,
+                    humidity, and condition icons.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Steps Section -->
+            <section class="gallery">
+            <div class="card">
+                <img src="images/weather/search.png" alt="Search City"/>
+                <h3>Step 1: Search City</h3>
+                <p>Start by typing the name of your city in the search bar to find the location you’re interested in.</p>
+            </div>
+            <div class="card">
+                <img src="images/weather/options.png" alt="Select Option"/>
+                <h3>Step 2: Select Option</h3>
+                <p>Choose the correct city from the suggested options for more accurate weather data.</p>
+            </div>
+            <div class="card">
+                <img src="images/weather/city resulet.png" alt="Show Results"/>
+                <h3>Step 3: Show Results</h3>
+                <p>View detailed weather information such as temperature, humidity, wind speed, and condition icons.</p>
+            </div>
+            </section>
+
+           
+        </div>
+    </div>
+
+    <!-- sidebar page (note app) -->
+    <div id="not" class="not">
+        <span class="close-btn" id="close-not">&times;</span>
+        <div class="sidebar-content">
+            <!-- Header -->
+            <header>
+                <h1>Note App</h1>
+            </header>
+
+            <div class="lien-sit">
+            <a target="_blank" href="https://houdaifa-1244.github.io/Notes-Application/">Visit the App</a>
+            </div>
+
+            <!-- Intro Section -->
+            <section class="intro-video">
+                <div class="intro-text">
+                    <h2>Welcome to Note App</h2>
+                    <p>
+                    This application allows you to easily create, edit, and manage your personal notes.
+                    With a minimal and responsive interface, you can add new notes, write down your thoughts,
+                    and delete them whenever you want — all in one simple and elegant environment.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Steps Section -->
+            <section class="gallery">
+            <div class="card">
+                <img src="images/note/1.png" alt="Add Note"/>
+                <h3>Step 1: Add Note</h3>
+                <p>Click the “Add” button to create a new note instantly in your workspace.</p>
+            </div>
+            <div class="card">
+                <img src="images/note/2.png" alt="Write Note"/>
+                <h3>Step 2: Write in Note</h3>
+                <p>Start typing your ideas, reminders, or to-do items directly inside the note.</p>
+            </div>
+            <div class="card">
+                <img src="images/note/3.png" alt="Delete Note"/>
+                <h3>Step 3: Delete Note</h3>
+                <p>When a note is no longer needed, delete it easily with a single click.</p>
+            </div>
+            </section>
+
+        </div>
+    </div>
+
+    <!-- sidebar page (resrvation trrain) -->
+    <div id="teran" class="teran">
+        <span class="close-btn" id="close-ann">&times;</span>
+        <div class="sidebar-content">
+
+            <!-- Header -->
+            <header>
+            <h1>Reservation Terrain App</h1>
+            </header>
+
+            <div class="lien-sit">
+            <a target="_blank" href="">Visit the App</a>
+            </div>
+
+            <!-- Intro Section -->
+            <section class="intro-video">
+                <div class="intro-text">
+                    <h2>Welcome to Reservation Terrain</h2>
+                    <p>
+                    A complete reservation platform for sports terrains. Users can sign in or create an account,
+                    add and manage reservations (choose sport, terrain, date and time) while admins manage users,
+                    sports, terrains, closing hours and approve or cancel reservations.
+                    </p>
+                </div>
+            </section>
+
+            <!-- User Flow Section -->
+            <section class="gallery">
+                <div class="card">
+                    <img src="images/terrain/1.png" alt="Login"/>
+                    <h3>1 — Login</h3>
+                    <p>Sign in with email and password to access your account and dashboard.</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/terrain/2.png" alt="Sign Up"/>
+                    <h3>2 — Create Account</h3>
+                    <p>Register with name, email and password to create a new user account.</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/terrain/3.png" alt="User Dashboard"/>
+                    <h3>3 — User Dashboard</h3>
+                    <p>Access your dashboard to add reservations and view your list of bookings.</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/terrain/4.png" alt="Add Reservation"/>
+                    <h3>4 — Add Reservation</h3>
+                    <p>Fill the reservation form: name, sport, terrain, date, start time and end time.</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/terrain/5.png" alt="Reservations List"/>
+                    <h3>5 — Reservations List</h3>
+                    <p>View and manage all your existing reservations: edit or cancel when needed.</p>
+                </div>
+            </section>
+
+            <!-- Admin Flow Section -->
+            <section class="gallery">
+                <div class="card">
+                    <img src="images/terrain/6.png" alt="Admin Dashboard"/>
+                    <h3>6 — Admin Dashboard</h3>
+                    <p>Central admin area: add/manage users, sports, terrains, closing hours and view reservations.</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/terrain/7.png" alt="Manage Admins"/>
+                    <h3>7 — Manage Admins</h3>
+                    <p>Create, edit or remove admin accounts and assign roles/permissions.</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/terrain/8.png" alt="Manage Sports"/>
+                    <h3>8 — Manage Sports</h3>
+                    <p>Manage the list of sports (add, edit, deactivate categories used by reservations).</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/terrain/9.png" alt="Add Sport"/>
+                    <h3>9 — Add Sport</h3>
+                    <p>Add new sport categories with name, icon and description for users to choose.</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/terrain/10.png" alt="Add Terrain"/>
+                    <h3>10 — Add Terrain</h3>
+                    <p>Add new terrains/fields (name, location, sport type, capacity, images).</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/terrain/11.png" alt="Manage Terrains"/>
+                    <h3>11 — Manage Terrains</h3>
+                    <p>Edit terrain details, enable/disable availability and attach images.</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/terrain/12.png" alt="Add Closing Hours"/>
+                    <h3>12 — Add Closing Hours</h3>
+                    <p>Define daily closing hours or unavailable time slots for each terrain.</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/terrain/13.png" alt="List Reservations"/>
+                    <h3>13 — List Reservations (Admin)</h3>
+                    <p>Full reservations list with filters (date, terrain, user, status).</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/terrain/14.png" alt="Accept Cancel"/>
+                    <h3>14 — Accept / Cancel Reservation</h3>
+                    <p>Approve or cancel reservation requests and notify users instantly.</p>
+                </div>
+            </section>
+
+
+        </div>
+    </div>
+
+
+
+     
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>
+
+
