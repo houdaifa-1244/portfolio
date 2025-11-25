@@ -1,0 +1,505 @@
+
+/*--------------------------------- Responsive Media Quaries -----------------------------*/
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+/* Medium Device = 1200px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* .header__nav__menu {
+    margin-right: 25px;
+  } */
+
+  /* .header__nav__menu ul li {
+    margin-right: 25px;
+  } */
+
+  .header__nav__social {
+    padding-left: 25px;
+  }
+
+  .counter__item::before {
+    display: none;
+  }
+
+  .counter__content {
+    padding: 0px 145px 0 50px;
+  }
+
+  .counter__item.second__item {
+    margin-top: -210px;
+  }
+
+  .counter__item.four__item {
+    margin-top: -210px;
+  }
+
+  .hero__slider.owl-carousel .owl-dots {
+    max-width: 930px !important;
+  }
+  .experience{
+    left: 0;
+  }
+}
+/* Tablet Device = 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .hero__slider.owl-carousel .owl-dots {
+    max-width: 690px !important;
+  }
+  .header__logo{
+    text-align: center;
+    right: 500px;
+  }
+
+
+  .experience{
+    position: relative;
+    left:10px;
+  }
+  .experience h2,
+  .experience span{
+    position: relative;
+    top: 1px;
+  }
+  .services__title {
+    margin-bottom: 50px;
+  }
+
+  .counter__item {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+        transform: rotate(0);
+    margin-bottom: 30px;
+    width: auto;
+  }
+
+  .counter__item::before {
+    display: none;
+  }
+
+  .counter__content {
+    padding: 0;
+  }
+
+  .counter__item.second__item {
+    margin-top: 0;
+  }
+
+  .counter__item.four__item {
+    margin-top: 0;
+  }
+
+  .counter__item__text {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+        transform: rotate(0);
+  }
+
+  .counter {
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 70px;
+  }
+
+  .team__item.team__item--second {
+    margin-top: 0;
+  }
+
+  .team__item.team__item--third {
+    margin-top: 0;
+  }
+
+  .team__item.team__item--four {
+    margin-top: 0;
+  }
+
+  .team__btn {
+    position: relative;
+    padding-top: 50px;
+  }
+
+  .about__pic {
+    margin-bottom: 50px;
+  }
+
+  .about__text {
+    padding-left: 0;
+  }
+
+  .portfolio__filter li {
+    padding: 6px 15px;
+  }
+
+  .slicknav_menu {
+    background: transparent;
+    padding: 0;
+    display: block;
+  }
+
+  .slicknav_nav ul {
+    margin: 0;
+    padding: 10px 30px;
+  }
+
+  .slicknav_nav .slicknav_row,
+.slicknav_nav a {
+    padding: 7px 0;
+    margin: 0;
+    color: #ffffff;
+    font-weight: 600;
+  }
+
+  .slicknav_nav .slicknav_row:hover {
+    border-radius: 0;
+    background: transparent;
+    color: #111111;
+  }
+
+  .slicknav_nav a:hover {
+    border-radius: 0;
+    background: transparent;
+    color: #111111;
+  }
+
+  .slicknav_nav {
+    background: #222222;
+  }
+
+  .slicknav_btn {
+    position: absolute;
+    right: 10px;
+    top: 26px;
+    background: #00bfe7;
+  }
+
+  .header .container {
+    position: relative;
+  }
+
+  /* .header__nav__option {
+    display: none;
+  } */
+}
+/* Wide Mobile = 480px */
+@media only screen and (max-width: 767px) and (max-width: 500px){
+  .services__title {
+    margin-bottom: 50px;
+  }
+  .hero__text span{
+    font-size: 13px;
+    left: -4px;
+  }
+  .hero__text h1{
+    font-size: 27px;
+    line-height: 40px;
+    left: -5px;
+  }
+  .hero__item{
+    height: 550px;
+  }
+  .experience{
+    position: relative;
+    left:20px;
+  }
+  .experience h2,
+  .experience span{
+    position: relative;
+    top: 1px;
+  }
+  .counter__item {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+        transform: rotate(0);
+    margin-bottom: 30px;
+    width: auto;
+  }
+
+  .counter__item::before {
+    display: none;
+  }
+
+  .counter__content {
+    padding: 0;
+  }
+
+  .counter__item.second__item {
+    margin-top: 0;
+  }
+
+  .counter__item.four__item {
+    margin-top: 0;
+  }
+
+  .counter__item__text {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+        transform: rotate(0);
+  }
+
+  .counter {
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 70px;
+  }
+
+  .team__item.team__item--second {
+    margin-top: 0;
+  }
+
+  .team__item.team__item--third {
+    margin-top: 0;
+  }
+
+  .team__item.team__item--four {
+    margin-top: 0;
+  }
+
+  .team__btn {
+    position: relative;
+    padding-top: 50px;
+  }
+
+  .about__pic {
+    margin-bottom: 50px;
+  }
+
+  .about__text {
+    padding-left: 0;
+  }
+
+  .hero__slider.owl-carousel .owl-dots {
+    max-width: auto;
+    padding: 0 15px;
+  }
+
+  .slicknav_menu {
+    background: transparent;
+    padding: 0;
+    display: block;
+  }
+
+  .slicknav_nav ul {
+    margin: 0;
+    padding: 10px 30px;
+  }
+
+  .slicknav_nav .slicknav_row,
+.slicknav_nav a {
+    padding: 7px 0;
+    margin: 0;
+    color: #ffffff;
+    font-weight: 600;
+  }
+
+  .slicknav_nav .slicknav_row:hover {
+    border-radius: 0;
+    background: transparent;
+    color: #111111;
+  }
+
+  .slicknav_nav a:hover {
+    border-radius: 0;
+    background: transparent;
+    color: #111111;
+  }
+
+  .slicknav_nav {
+    background: #222222;
+  }
+
+  .slicknav_btn {
+    position: absolute;
+    right: 10px;
+    top: 26px;
+    background: #00bfe7;
+  }
+
+  .header .container {
+    position: relative;
+  }
+
+  /* .header__nav__option {
+    display: none;
+  } */
+
+  .hero__text h2 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .grid-sizer {
+    width: calc(50% - 10px);
+  }
+
+  .work__item.wide__item {
+    width: calc(50% - 10px);
+  }
+
+  .work__item {
+    width: calc(50% - 10px);
+  }
+
+  .work__item.large__item {
+    width: calc(50% - 10px);
+  }
+
+  .footer__top__social {
+    text-align: left;
+    padding-top: 30px;
+  }
+
+  .portfolio__filter li {
+    margin-bottom: 10px;
+  }
+
+  .input__list {
+    margin-right: 0;
+  }
+
+  .input__list input {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .contact__map {
+    margin-bottom: 40px;
+  }
+
+  .team__item {
+    margin-bottom: 20px;
+  }
+
+  .team .p-0 {
+    padding: 0 15px !important;
+  }
+
+  .about__pic__item {
+    margin-right: 0;
+  }
+
+  .blog__details__quote {
+    padding: 30px 45px 35px 35px;
+  }
+}
+/* Small Device = 320px */
+@media only screen and (max-width: 479px) {
+  .hero__text h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .grid-sizer {
+    width: 100%;
+  }
+
+  .work__item.wide__item {
+    width: 100%;
+  }
+
+  .work__item {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .work__item.large__item {
+    width: 100%;
+  }
+
+  .work__gallery {
+    margin-right: 0;
+  }
+
+  .pagination__option .arrow__pagination.left__arrow {
+    margin-right: 15px;
+  }
+
+  .pagination__option .arrow__pagination.right__arrow {
+    margin-left: 10px;
+  }
+
+  .blog__details__quote {
+    padding: 30px 40px 35px 35px;
+  }
+}
+
+
+
+
+/* Mobile */
+@media (max-width: 768px) {
+  .phone-menu{
+    display: none;
+  }
+  .header__nav__menu ul li {
+    margin-right: 0px;
+  }
+  .header__logo a {
+    position: relative;
+    left: 80px;
+  }
+  .header__logo .icon{
+    display: block;
+    color: #00bfe7;
+    font-size: 35px;
+    position: absolute;
+    left: 17px;
+    top: 10px;
+    cursor: pointer;
+  }
+/* Sidebar style */
+.x{
+  color: #00bfe7;
+  position: relative;
+  left: -20px;
+  font-weight: 900;
+  font-size: 25px;
+  cursor: pointer;
+}
+.mobile-menu {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: -250px; 
+  width: 250px;
+  height: 100%;
+  background-color: #1a083d;
+  padding-top: 60px;
+  transition: 0.3s;
+  z-index: 9999;
+}
+
+/* centrer les items */
+.mobile-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.mobile-menu ul li a {
+  display: block;
+  padding: 15px 0;
+  color: #fff;
+  text-decoration: none;
+  /* text-align: center; */
+  font-weight: bold;
+  float: left;
+  margin-left: 30px;
+}
+
+/* .mobile-menu ul li a:hover,
+.mobile-menu ul li a.active {
+  background-color: #008bb5;
+} */
+
+
+.mobile-menu.show{
+  left: 0;
+}
+
+
+
+}
