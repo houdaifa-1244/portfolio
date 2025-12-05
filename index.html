@@ -8,7 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Houdaifa Mouden</title>
-
+    <!-- bootsrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
@@ -172,13 +173,14 @@
     </section>
 
     <!-- Portfolio Section  -->
-    <section class="portfolio spad" id="project" >
+    <section class="portfolio spad" id="project">
         <div class="container">
             <div class="section-title project">
                 <span>Portfolio</span>
-                <h2>My Project</h2>
+                <h2>My Projects</h2>
             </div>
 
+            <!-- Filter Buttons -->
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="portfolio__filter">
@@ -190,129 +192,187 @@
                 </div>
             </div>
 
+            <!-- Projects Gallery -->
             <div class="row portfolio__gallery">
 
-                <!-- Project front-end -->
+                <!-- PROJECT 1-->
                 <div class="col-lg-4 col-md-6 col-sm-6 mix front">
                     <div class="portfolio__item">
-                        <div class="portfolio__item__video set-bg" >
-                            <img src="img/portfolio/billApp/Untitled design.png" alt="">
-                            
-
+                        <div class="portfolio__item__video set-bg">
+                            <img src="img/portfolio/billApp/Untitled design.png" alt="App Bill Counter">
                         </div>
                         <div class="portfolio__item__text">
                             <h4>App Bill Counter</h4>
                             <ul>
-                                <li><a style="background-color: transparent;" href="#sidebar-page" class="play-btn video-popup">See the project</a></li>
+                                <li class="project-wrapper"
+                                    data-title="App Bill Counter"
+                                    data-desc="Application pour calculer les bills rapidement."
+                                    data-github="https://github.com/user/billApp"
+                                    data-live="https://billapp-live.com">
+                                    <p class="se-project">See the project</p>
+                                    <div class="lin-hover"></div>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
+                <!-- PROJECT 2 -->
                 <div class="col-lg-4 col-md-6 col-sm-6 mix front">
                     <div class="portfolio__item">
-                        <div class="portfolio__item__video set-bg" >
-                            <img src="img/portfolio/note/Untitled design.png" alt="">
-
-          
+                        <div class="portfolio__item__video set-bg">
+                            <img src="img/portfolio/note/Untitled design.png" alt="Note App">
                         </div>
                         <div class="portfolio__item__text">
                             <h4>Note Application</h4>
                             <ul>
-                                <li><a style="background-color: transparent;" href="#not" class="play-btn video-popup">See the project </a></li>
+                                <li class="project-wrapper"
+                                    data-title="Note Application"
+                                    data-desc="Application pour créer et gérer vos notes."
+                                    data-github="https://github.com/user/noteApp"
+                                    data-live="https://noteapp-live.com">
+                                    <p class="se-project">See the project</p>
+                                    <div class="lin-hover"></div>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
+                <!-- PROJECT 3 -->
                 <div class="col-lg-4 col-md-6 col-sm-6 mix front">
                     <div class="portfolio__item">
-                        <div class="portfolio__item__video set-bg" >
-                            <img src="img/portfolio/to_do_list/Untitled design.png" alt="">
-
-                            
+                        <div class="portfolio__item__video set-bg">
+                            <img src="img/portfolio/to_do_list/Untitled design.png" alt="To Do List">
                         </div>
                         <div class="portfolio__item__text">
                             <h4>To Do List</h4>
                             <ul>
-                                <li><a style="background-color: transparent;" href="#sidebar-page" class="play-btn video-popup">See the project</a></li>
+                                <li class="project-wrapper"
+                                    data-title="To Do List"
+                                    data-desc="Application pour gérer vos tâches quotidiennes."
+                                    data-github="https://github.com/user/todoApp"
+                                    data-live="https://todoapp-live.com">
+                                    <p class="se-project">See the project</p>
+                                    <div class="lin-hover"></div>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
+                <!-- PROJECT 4 -->
                 <div class="col-lg-4 col-md-6 col-sm-6 mix front">
                     <div class="portfolio__item">
-                        <div class="portfolio__item__video set-bg" >
-                            <img src="img/portfolio/sweet/Untitled design.png" alt="">
-
-
+                        <div class="portfolio__item__video set-bg">
+                            <img src="img/portfolio/sweet/Untitled design.png" alt="Product List">
                         </div>
                         <div class="portfolio__item__text">
                             <h4>Product List</h4>
                             <ul>
-                                <li><a style="background-color: transparent;" href="#sidebar-page" class="play-btn video-popup">See the project</a></li>
+                                <li class="project-wrapper"
+                                    data-title="Product List"
+                                    data-desc="Liste de produits avec gestion facile."
+                                    data-github="https://github.com/user/productList"
+                                    data-live="https://productlist-live.com">
+                                    <p class="se-project">See the project</p>
+                                    <div class="lin-hover"></div>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
+                <!-- PROJECT 5 -->
                 <div class="col-lg-4 col-md-6 col-sm-6 mix front">
                     <div class="portfolio__item">
-                        <div class="portfolio__item__video set-bg" >
-                            <img src="img/portfolio/weather/Untitled design.png" alt="">
-                            
-
+                        <div class="portfolio__item__video set-bg">
+                            <img src="img/portfolio/weather/Untitled design.png" alt="Weather App">
                         </div>
                         <div class="portfolio__item__text">
                             <h4>Weather Application</h4>
                             <ul>
-                                <li><a style="background-color: transparent;" href="#sidebar-page" class="play-btn video-popup">See the project</a></li>
+                                <li class="project-wrapper"
+                                    data-title="Weather Application"
+                                    data-desc="Application météo avec prévisions locales."
+                                    data-github="https://github.com/user/weatherApp"
+                                    data-live="https://weatherapp-live.com">
+                                    <p class="se-project">See the project</p>
+                                    <div class="lin-hover"></div>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                <!-- project full-stack -->
-
+                <!-- PROJECT 6 -->
                 <div class="col-lg-4 col-md-6 col-sm-6 mix full">
                     <div class="portfolio__item">
-                        <div class="portfolio__item__video set-bg" >
-                            <img src="img/portfolio/terrain/Untitled design.png" alt="">
-
+                        <div class="portfolio__item__video set-bg">
+                            <img src="img/portfolio/terrain/Untitled design.png" alt="Reservation Terrain">
                         </div>
                         <div class="portfolio__item__text">
-                            <h4>Resrvation Terrain</h4>
+                            <h4>Reservation Terrain</h4>
                             <ul>
-                                <li><a style="background-color: transparent;" href="#sidebar-page" class="play-btn video-popup">See the project</a></li>
+                                <li class="project-wrapper"
+                                    data-title="Reservation Terrain"
+                                    data-desc="Application pour réserver terrains facilement."
+                                    data-github="https://github.com/user/terrainApp"
+                                    data-live="https://terrainapp-live.com">
+                                    <p class="se-project">See the project</p>
+                                    <div class="lin-hover"></div>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                <!-- project desktop app -->
-
+                <!-- PROJECT 7 -->
                 <div class="col-lg-4 col-md-6 col-sm-6 mix desktop">
                     <div class="portfolio__item">
-                        <div class="portfolio__item__video set-bg" >
-                            <img src="img/portfolio/password/Untitled design.png" alt="">
+                        <div class="portfolio__item__video set-bg">
+                            <img src="img/portfolio/password/Untitled design.png" alt="Password Generator">
                         </div>
                         <div class="portfolio__item__text">
-                            <h4>Password Generatore</h4>
+                            <h4>Password Generator</h4>
                             <ul>
-                                <li><a style="background-color: transparent;" href="#sidebar-page" class="play-btn video-popup">See the project</a></li>
+                                <li class="project-wrapper"
+                                    data-title="Password Generator"
+                                    data-desc="Application desktop pour générer mots de passe sécurisés."
+                                    data-github="https://github.com/user/passwordApp"
+                                    data-live="https://passwordapp-live.com">
+                                    <p class="se-project">See the project</p>
+                                    <div class="lin-hover"></div>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-
-
-    
             </div>
-
         </div>
     </section>
+
+    <!-- Modal pour tous les projets -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <img class="close" src="img/icons/ui-close.svg" alt="">
+            <h2 id="modal-title"></h2>
+            <p id="modal-desc"></p>
+            <div class="modal-links">
+                <a href="#" id="modal-live" target="_blank">
+                    <img src="img/icons/external-link.svg" alt="Live" />
+                    <span>Live</span>
+                </a>
+                <a href="#" id="modal-github" target="_blank">
+                   <img src="img/icons/github.png" alt="">
+                   <span>Code</span>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+ 
 
 
     <!-- Experience Section  -->
@@ -765,11 +825,11 @@
 
             <!-- Header -->
             <header>
-            <h1>Reservation Terrain App</h1>
+                <h1>Reservation Terrain App</h1>
             </header>
 
             <div class="lien-sit">
-            <a target="_blank" href="">Visit the App</a>
+            <a target="_blank" href="https://teranresrvation.42web.io/">Visit the App</a>
             </div>
 
             <!-- Intro Section -->

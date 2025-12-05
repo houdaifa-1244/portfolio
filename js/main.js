@@ -238,6 +238,31 @@ item.addEventListener('click', ()=>{
 })
 
 
+// =============== PROJECT DESCRIPTION ==================
 
+const projectItems = document.querySelectorAll(".project-wrapper");
+const modal = document.getElementById("project-modal");
+const modalTitle = document.getElementById("modal-title");
+const modalDesc = document.getElementById("modal-desc");
+const modalGithub = document.getElementById("modal-github");
+const modalLive = document.getElementById("modal-live");
+const closeBtn = document.querySelector(".close");
 
+projectItems.forEach(item => {
+  item.addEventListener("click", () => {
+    modalTitle.textContent = item.dataset.title;
+    modalDesc.textContent = item.dataset.desc;
+    modalGithub.href = item.dataset.github;
+    modalLive.href = item.dataset.live;
+    modal.style.display = "flex";
+  });
+});
+
+closeBtn.addEventListener("click", () => {
+  modal.style.display = "none";
+});
+
+window.addEventListener("click", (e) => {
+  if (e.target === modal) modal.style.display = "none";
+});
 
