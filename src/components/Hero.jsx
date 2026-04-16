@@ -1,4 +1,4 @@
-import useScrollReveal from "../hooks/useScrollReveal";
+import useScrollReveal from "../Hooks/useScrollReveal";
 import profile from "../assets/image/houdaifa_profile.png";
 export default function Hero() {
   useScrollReveal();
