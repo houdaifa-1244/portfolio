@@ -1,4 +1,4 @@
-import useScrollReveal from "../hooks/useScrollReveal";
+import useScrollReveal from "../Hooks/UseScrollReveal";
 
 export default function Projects() {
   useScrollReveal();
